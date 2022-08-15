@@ -6,7 +6,7 @@ interface Props {
   complete: any;
   compTask: any;
   deleteTask: any;
-  AiOutlineCloseCircle: any;
+  // AiOutlineCloseCircle: boolean;
 }
 
 const Task: React.FC<Props> = ({
@@ -15,7 +15,7 @@ const Task: React.FC<Props> = ({
   complete,
   compTask,
   deleteTask,
-  AiOutlineCloseCircle,
+  // AiOutlineCloseCircle,
 }) => {
   return (
     <div className={complete ? "task-container completed" : "task-container"}>
