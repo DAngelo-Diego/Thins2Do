@@ -33,7 +33,7 @@
 }
 
 .task-container:nth-child(3n + 1) {
-  background-color: #e3e3e451;
+  background-color: #f8f8f851;
   color: #ff8e3c;
   border: 2px solid rgb(252, 147, 27);
 }
